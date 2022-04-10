@@ -8,7 +8,7 @@ p1a
 
 #No.1 b
 mean(rgeom(n = 10000, prob = p1a) == 3)
-mean
+
 
 #No.1 c
 #Dari situ, dapat disimpulkan bahwa P(X=x) distribusi geometrik dengan peluang p dapat diestimasi dengan
@@ -34,7 +34,7 @@ x_2a = 4
 p_2a = 0.2
 
 peluang_2a = (comb(n_2a, x_2a)*(p_2a^x_2a)*((p_2a-1)^(n_2a-x_2a)))
-peluan_2a
+peluang_2a
 
 #No.2 b
 plot(0:20, dbinom(0:20, n_2a, p_2a),type='h')
@@ -132,4 +132,4 @@ h = hist(rnorm(100, 50, 8), breaks = 50, main="5025201239_Kadek Ari Dharmika_Pro
 
 #6c
 varian_6c = sd_6a * sd_6a
-Varian_6c
+varian_6c
